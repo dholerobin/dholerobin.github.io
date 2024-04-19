@@ -72,7 +72,14 @@ h3 {
   background: #283593;
   color: #ffffff;
 }
-
+.card-body {
+  padding: 30px 15px;
+  background: #1a237e !important;
+  color: #ffffff !important;
+}
+.btn {
+    background: #1a237e !important;
+}
 .resume .base .profile {
   background: #ffb300;
   padding: 30px 15px 40px 15px;
@@ -511,4 +518,26 @@ h3 {
 
 .resume .func .interests-items div span {
   display: block;
+}
+
+.pdf {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+
+.pdf,
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  color: green;
 }
